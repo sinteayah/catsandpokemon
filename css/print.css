@@ -1,0 +1,316 @@
+body {
+  margin: 0;
+  font-family: 'Nunito';
+  background-color: #d8d4c8;
+  font-size: 20px;
+  overflow-x: hidden; 
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+caption {
+  font-weight: bold;
+  font-size: large;
+  padding: 8px;
+  position: relative;
+  color: #524840;
+}
+
+th,
+td {
+  border: 1.8px solid #b7d3d0;
+  padding: 8px;
+  text-align: left;
+  color: #5c5148;
+}
+
+th {
+  background-color: #f7c3bf;
+}
+
+td {
+  background-color: #f3e3d4;
+}
+
+tbody tr td:first-child {
+  text-align: center;
+}
+
+tbody tr:first-child td {
+  padding-top: 20px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.title-text {
+  text-align: center;
+}
+
+.under-cat {
+  font-size: 18px;
+  text-align: left;
+  padding: 30px;
+  color: #947272;
+}
+
+.header-banner,
+header,
+footer,
+aside {
+  width: 100%;
+  padding: 20px;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 20px;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.pokemon-type {
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(100, 73, 48);
+}
+
+.nested-item {
+  color: rgb(68, 104, 68);
+  font-size: large;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 60px 100px;
+  }
+
+  aside {
+    margin-right: 20px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  width: 100%;
+  height: auto;
+}
+
+.flyingcat-img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.staringcat-img,
+.lazycat-img {
+  max-width: 65%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #555353;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.flex-item {
+  height: 99%;
+  color: #f5f5f5;
+  line-height: 100px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.flex-item p {
+  margin: 10px;
+  line-height: 1.5;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-banner h1 {
+  background-color: #f5f5f5;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-banner img {
+  width: 100px;
+  height: 100px;
+}
+
+.intra-title {
+  color: #555353;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu ul {
+  font-size: 25px;
+  list-style-type: none;
+  padding: 30;
+  margin: 0;
+  display: flex; 
+}
+
+.menu ul li {
+  margin-right: 20px; 
+  border: 2px solid #a79191; 
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.menu ul li:last-child {
+  margin-right: 0; 
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+.menu ul li a:hover {
+  color: #a4b4a8;
+}
+
+.menu ul li#intrapage-links {
+  margin-top: 20px; 
+}
+
+.menu ul li#intrapage-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li#intrapage-links ul li {
+  margin-bottom: 10px;
+}
+
+.menu ul li#intrapage-links ul li a {
+  text-decoration: none;
+  color: #555;
+}
+
+.menu ul li#intrapage-links ul li a:hover {
+  color: #000;
+}
+
+.main-content {
+  padding: 20px;
+  background-color: #d8d4c8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intra-page-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.intra-page-links ul li {
+  margin-bottom: 10px;
+}
+
+.intra-page-links ul li a {
+  text-decoration: none;
+  color: #555;
+}
+
+.intra-page-links ul li a:hover {
+  color: #000;
+}
+
+.intra-footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.standing-cat {
+  width: 400px; 
+}
+
+.cat-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.cat-links ul li {
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.cat-links ul li:last-child {
+  margin-right: 0;
+}
+
+.cat-links ul li a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+.cat-links ul li a:hover {
+  color: #b29fc4;
+}
+
+.thumbsupcat-img {
+  max-width: 65%;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding-bottom: 20px;
+}
